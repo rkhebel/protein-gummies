@@ -1,5 +1,4 @@
 import { Banana } from 'lucide-react'
-import { Button } from "@/components/ui/button"
 
 export default function Page() {
   return (
@@ -12,14 +11,11 @@ export default function Page() {
         <p className="text-xl md:text-2xl text-white/90">
           Fruit Snacks Packed with Protein!
         </p>
-        <Button 
-          size="lg" 
-          variant="secondary" 
-          className="mt-8 text-lg px-8 py-6 rounded-full bg-white text-primary hover:bg-white/90"
-        >
-          Stay Updated!
-        </Button>
+        <p className="text-3xl font-bold text-white bg-white/20 px-8 py-4 rounded-full inline-block">
+          Coming Soon
+        </p>
       </div>
     </main>
   )
 }
+
